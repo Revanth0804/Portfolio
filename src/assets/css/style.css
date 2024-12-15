@@ -248,7 +248,7 @@ header {
     border-radius: 3px;
 }
 
-/* Mobile Menu (Initially Hidden) */
+/* Mobile Menu (Initially Hidden)
 .mobile-menu {
     display: none;
     flex-direction: column;
@@ -259,7 +259,7 @@ header {
 
 .mobile-menu.active {
     display: flex;
-}
+} */
 
 /* --- Responsive Styling --- */
 @media (max-width: 768px) {
@@ -863,7 +863,7 @@ section {
         min-height: 100vh;
         display: flex;
         align-items: center;
-        background: url(https://i.pinimg.com/564x/34/d9/18/34d918230e2f20e45770dabf1e973877.jpg) no-repeat;
+        background: url(../images/image.png) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -929,7 +929,7 @@ section {
         min-height: 100vh;
         display: flex;
         align-items: center;
-        background: url(https://i.pinimg.com/564x/34/d9/18/34d918230e2f20e45770dabf1e973877.jpg) no-repeat;
+        background: url(../images/image.png) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -1108,7 +1108,7 @@ section {
                 min-height: 100vh;
                 display: flex;
                 align-items: center;
-                background: url(https://i.pinimg.com/564x/34/d9/18/34d918230e2f20e45770dabf1e973877.jpg) no-repeat;
+                background: url(../images/image.png) no-repeat;
                 background-size: cover;
                 background-position: center;
                 background-attachment: fixed;
@@ -1333,7 +1333,7 @@ section {
                     min-height: 100vh;
                     display: flex;
                     align-items: center;
-                    background: url(https://i.pinimg.com/564x/34/d9/18/34d918230e2f20e45770dabf1e973877.jpg) no-repeat;
+                    background: url(../images/image.png) no-repeat;
                     background-size: cover;
                     background-position: center;
                     background-attachment: fixed;
@@ -1563,7 +1563,7 @@ section {
         min-height: 100vh;
         display: flex;
         align-items: center;
-        background: url(https://i.pinimg.com/564x/34/d9/18/34d918230e2f20e45770dabf1e973877.jpg) no-repeat;
+        background: url(../images/image.png) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;

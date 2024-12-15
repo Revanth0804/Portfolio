@@ -43,17 +43,6 @@ function Header({ isDarkMode, toggleDarkMode }) {
           <ScrollLink to="Highlight" onClick={handleLinkClick}>Highlight</ScrollLink>
           <Link to="/Contact" onClick={handleLinkClick}>Contact</Link>
         </nav>
-
-        {/* Mobile Menu */}
-        <div className={`mobile-menu ${isMenuActive ? "active" : ""}`}>
-          <a href="/" onClick={handleLinkClick}>Home</a>
-          <ScrollLink to="Services" onClick={handleLinkClick}>Services</ScrollLink>
-          <ScrollLink to="Skills" onClick={handleLinkClick}>Skills</ScrollLink>
-          <ScrollLink to="Projects" onClick={handleLinkClick}>Projects</ScrollLink>
-          <ScrollLink to="Testimonials" onClick={handleLinkClick}>Testimonials</ScrollLink>
-          <ScrollLink to="Highlight" onClick={handleLinkClick}>Highlight</ScrollLink>
-          <Link to="/Contact" onClick={handleLinkClick}>Contact</Link>
-        </div>
       </div>
 
       {/* Dark Mode Toggle */}
