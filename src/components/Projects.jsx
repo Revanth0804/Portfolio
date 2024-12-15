@@ -7,7 +7,7 @@ import { DiMsqlServer } from "react-icons/di";
 import { TbBrandCSharp } from "react-icons/tb";
 import Student from "../assets/images/student.png";
 import Seating from "../assets/images/seating.png";
-import Match from "../assets/images/Match.png";
+import Match from "../assets/images/match.png";
 
 function Projects() {
   
