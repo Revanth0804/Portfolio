@@ -42,6 +42,7 @@ function Header({ isDarkMode, toggleDarkMode }) {
           <ScrollLink to="Testimonials" onClick={handleLinkClick}>Testimonials</ScrollLink>
           <ScrollLink to="Highlight" onClick={handleLinkClick}>Highlight</ScrollLink>
           <Link to="/Contact" onClick={handleLinkClick}>Contact</Link>
+          
         </nav>
       </div>
 
@@ -49,6 +50,7 @@ function Header({ isDarkMode, toggleDarkMode }) {
       <button onClick={toggleDarkMode} className="dark-mode-toggle" id="button1">
         <i className={isDarkMode ? "fa fa-sun" : "fa fa-moon"}></i>
       </button>
+      
     </header>
   );
 }
