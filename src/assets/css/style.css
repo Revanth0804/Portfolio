@@ -128,13 +128,13 @@ header {
 /* General Navigation Styles */
 .navigation {
     display: flex;
-    gap: 5px; /* Space between links */
+    gap: 5px; 
     justify-content: center;
     align-items: center;
-    background-color: #1a1a1a; /* Dark background */
+    background-color: #1a1a1a; 
     padding: 10px 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 /* Navigation Links */
@@ -152,9 +152,9 @@ header {
 /* --- Hover Effects --- */
 .navigation a:hover,
 .navigation .scroll-link:hover {
-    color: pink; /* Change text color */
-    transform: translateY(-3px); /* Slight lift on hover */
-    text-shadow: 0 0 8px rgba(255, 87, 51, 0.8); /* Glow effect */
+    color: pink; 
+    transform: translateY(-3px); 
+    text-shadow: 0 0 8px rgba(255, 87, 51, 0.8); 
 }
 
 /* Glowing Underline Animation */
@@ -195,7 +195,7 @@ header {
 
 .navigation a:hover::before,
 .navigation .scroll-link:hover::before {
-    opacity: 0.1; /* Subtle background glow */
+    opacity: 0.1; 
 }
 
 /* --- Ripple Effect --- */
@@ -227,7 +227,7 @@ header {
 .navigation:hover a:not(:hover),
 .navigation:hover .scroll-link:not(:hover) {
     opacity: 0.5;
-    transform: scale(0.95); /* Shrinks non-hovered links */
+    transform: scale(0.95); 
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
@@ -263,19 +263,19 @@ header {
 
 /* --- Responsive Styling --- */
 @media (max-width: 768px) {
-    /* Hide the default navigation links on mobile */
+    
     .navigation {
         display: none;
         flex-direction: column;
         gap: 10px;
     }
 
-    /* Show the hamburger menu */
+    
     .hamburger {
         display: flex;
     }
 
-    /* Show the navigation when the menu is active */
+    
     .navigation.active {
         display: flex;
     }
@@ -296,12 +296,12 @@ header {
     font-weight: 700;
     margin-bottom: 10px;
     opacity: 0;
-    animation: slideUpFadeIn 1s ease-out forwards; /* Fade and slide in */
+    animation: slideUpFadeIn 1s ease-out forwards; 
 }
 
 /* Highlight span in h2 */
 #abt h2 span {
-    color: #ff5733; /* Highlight span text with a different color */
+    color: #ff5733; 
 }
 
 /* Fade-in and slide-up effect for h3 */
@@ -310,7 +310,7 @@ header {
     color: #bbb;
     margin-bottom: 20px;
     opacity: 0;
-    animation: slideUpFadeIn 1.5s ease-out forwards; /* Slightly delayed fade and slide for h3 */
+    animation: slideUpFadeIn 1.5s ease-out forwards; 
     animation-delay: 0.5s;
 }
 
@@ -318,7 +318,7 @@ header {
 #abt .main-btn {
     opacity: 0;
     animation: fadeInButton 1.5s ease-out forwards;
-    animation-delay: 1s; /* Delay the button animation */
+    animation-delay: 1s; 
 }
 
 /* Social icons fade-in effect */
@@ -328,18 +328,18 @@ header {
     justify-content: center;
     gap: 15px;
     animation: fadeInIcons 1.5s ease-out forwards;
-    animation-delay: 1.5s; /* Delay social icons animation */
+    animation-delay: 1.5s; 
 }
 
 /* Keyframe for the fade-in and slide-up animation */
 @keyframes slideUpFadeIn {
     0% {
         opacity: 0;
-        transform: translateY(20px); /* Start from below */
+        transform: translateY(20px); 
     }
     100% {
         opacity: 1;
-        transform: translateY(0); /* End at normal position */
+        transform: translateY(0); 
     }
 }
 
@@ -448,7 +448,7 @@ section {
     border-radius: 5px;
     text-decoration: none;
     transition: transform 0.2s ease, background-position 0.5s ease;
-    background-size: 200% 200%; /* To allow animation movement */
+    background-size: 200% 200%; 
     position: relative;
     z-index: 1;
     border: 3px solid transparent;
