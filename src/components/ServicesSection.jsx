@@ -12,14 +12,14 @@ function ServicesSection() {
         <section className="cards" id="Services">
             <h2 className="title">Services</h2>
             <div className="Contact">
-                <div className="card">
+                {/* <div className="card">
                     <div className="icon">
                         <FaCode/>
                     </div>
                     <div className="info">
                         <h3>Web Developer</h3> <br/> <br/>
                     </div>
-                </div>
+                </div> */}
                 <div className="card">
                     <div className="icon">
                         <FaCode/>
