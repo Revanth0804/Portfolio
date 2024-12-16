@@ -372,7 +372,7 @@ section {
 
 .main {
     width: 100%;
-    min-height: 60vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background: url(/src/assets/images/image.png) no-repeat;
