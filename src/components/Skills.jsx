@@ -1,6 +1,6 @@
 import React from "react";
 import {GrMysql } from "react-icons/gr";
-import {FaHtml5,FaCss3Alt,FaJs,FaPython,FaReact } from "react-icons/fa";
+import {FaHtml5,FaCss3Alt,FaJs,FaPython,FaReact, FaJava  } from "react-icons/fa";
 import { DiMsqlServer } from "react-icons/di";
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -46,6 +46,15 @@ function Skills() {
                     </div>
                 </div>
 
+                <div className="card">
+                    <div className="icon">
+                        <FaJava  style={{color:'#007396'}}/> 
+                    </div>
+                    <div className="info">
+                        <h3 style={{color:'#007396'}}>JAVA</h3>
+                    </div>
+                </div>
+            
                 <div className="card">
                     <div className="icon">
                         <TbBrandCSharp style={{color:'#1966d2'}} /> 
