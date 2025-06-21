@@ -26,7 +26,7 @@
 .dark-mode #Projects  {
     background-color: #000016; 
 }
-.dark-mode #Testimonials  {
+.dark-mode #Certifications  {
     background-color: #f0f0f0; 
 }
 .dark-mode #Highlight  {
@@ -738,8 +738,8 @@ section {
 }
 
 
-/************ Testimonials Section *************/
-#Testimonials {
+/************ Certifications Section *************/
+#Certifications {
     background-color: #000016;
 }
 
@@ -1053,18 +1053,18 @@ section {
 
 
 
-       #Testimonials .title  {
+       #Certifications .title  {
         font-size: 20px;
        }
        
        
-       #Testimonials .card ,.info{
+       #Certifications .card ,.info{
            width: 90%; 
            height: auto;
            gap: 2px;
            
        }   
-       #Testimonials .card {
+       #Certifications .card {
            flex: 1 1 calc(50% - 16px);
            box-sizing: border-box;
            text-align: center;
@@ -1075,7 +1075,7 @@ section {
            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
        }
        
-       #Testimonials .info {
+       #Certifications .info {
            font-size: 14px; 
            text-align: center; 
            margin-top: 8px; 
@@ -1241,18 +1241,18 @@ section {
         
         
         
-                   #Testimonials .title  {
+                   #Certifications .title  {
                     font-size: 20px;
                    }
                    
                    
-                   #Testimonials .card ,.info{
+                   #Certifications .card ,.info{
                        width: 90%; 
                        height: auto;
                        gap: 2px;
                        
                    }   
-                   #Testimonials .card {
+                   #Certifications .card {
                        flex: 1 1 calc(50% - 16px);
                        box-sizing: border-box;
                        text-align: center;
@@ -1263,7 +1263,7 @@ section {
                        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
                    }
                    
-                   #Testimonials .info {
+                   #Certifications .info {
                        font-size: 14px; 
                        text-align: center; 
                        margin-top: 8px; 
@@ -1466,18 +1466,18 @@ section {
             
             
             
-                       #Testimonials .title  {
+                       #Certifications .title  {
                         font-size: 20px;
                        }
                        
                        
-                       #Testimonials .card ,.info{
+                       #Certifications .card ,.info{
                            width: 90%; 
                            height: auto;
                            gap: 2px;
                            
                        }   
-                       #Testimonials .card {
+                       #Certifications .card {
                            flex: 1 1 calc(50% - 16px);
                            box-sizing: border-box;
                            text-align: center;
@@ -1488,7 +1488,7 @@ section {
                            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
                        }
                        
-                       #Testimonials .info {
+                       #Certifications .info {
                            font-size: 14px; 
                            text-align: center; 
                            margin-top: 8px; 
@@ -1687,18 +1687,18 @@ section {
 
 
 
-           #Testimonials .title  {
+           #Certifications .title  {
             font-size: 20px;
            }
            
            
-           #Testimonials .card ,.info{
+           #Certifications .card ,.info{
                width: 90%; 
                height: auto;
                gap: 2px;
                
            }   
-           #Testimonials .card {
+           #Certifications .card {
                flex: 1 1 calc(50% - 16px);
                box-sizing: border-box;
                text-align: center;
@@ -1709,7 +1709,7 @@ section {
                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
            }
            
-           #Testimonials .info {
+           #Certifications .info {
                font-size: 14px; 
                text-align: center; 
                margin-top: 8px; 

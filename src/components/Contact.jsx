@@ -26,6 +26,16 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
+         Swal.fire({
+                title: 'Sending...',
+                text: 'Please wait while we send your message.',
+                allowOutsideClick: false,
+                allowEscapeKey: false,
+                didOpen: () => {
+                    Swal.showLoading(); // shows spinner
+                },
+            });
+
         emailjs
         .sendForm(
             'service_qzsyofk', 
@@ -35,6 +45,7 @@ const Contact = () => {
         )
             .then(
                 (result) => {
+                    Swal.close();
                     Swal.fire({
                         title: "Message Sent!",
                         text: "Your message has been sent successfully.",
@@ -56,6 +67,7 @@ const Contact = () => {
                     });
                 },
                 (error) => {
+                    Swal.close();
                     Swal.fire({
                         title: "Error!",
                         text: "There was an error sending your message. Please try again.",

@@ -39,7 +39,7 @@ function Header({ isDarkMode, toggleDarkMode }) {
           <ScrollLink to="Services" onClick={handleLinkClick}>Services</ScrollLink>
           <ScrollLink to="Skills" onClick={handleLinkClick}>Skills</ScrollLink>
           <ScrollLink to="Projects" onClick={handleLinkClick}>Projects</ScrollLink>
-          <ScrollLink to="Testimonials" onClick={handleLinkClick}>Testimonials</ScrollLink>
+          <ScrollLink to="Certifications" onClick={handleLinkClick}>Certifications</ScrollLink>
           <ScrollLink to="Highlight" onClick={handleLinkClick}>Highlight</ScrollLink>
           <Link to="/Contact" onClick={handleLinkClick}>Contact</Link>
           

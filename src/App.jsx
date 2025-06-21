@@ -5,7 +5,7 @@ import MainSection from "./components/MainSection";
 import ServicesSection from "./components/ServicesSection";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Testimonials from "./components/Testimonials";
+import Certifications from "./components/Certifications";
 import Highlight from "./components/Highlight";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -31,7 +31,7 @@ function App() {
               <ServicesSection />
               <Skills />
               <Projects />
-              <Testimonials />
+              <Certifications />
               <Highlight />
             </>
           } />

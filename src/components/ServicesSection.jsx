@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCode ,FaDatabase   } from "react-icons/fa";
-import {FaHtml5,FaCss3Alt,FaJs,FaPython,FaReact } from "react-icons/fa";
+import {FaHtml5,FaCss3Alt,FaJs,FaPython,FaReact, FaJava } from "react-icons/fa";
 import { DiMsqlServer } from "react-icons/di";
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -36,7 +36,7 @@ function ServicesSection() {
                     </div>
                     <div className="info">
                         <h3>Back End 
-                            <br/> <br/> <FaPython style={{color:'#AEB2D5', fontSize:'35px'}}/> <TbBrandCSharp style={{color:'#1966d2', fontSize:'35px'}} /> 
+                            <br/> <br/> <FaPython style={{color:'#AEB2D5', fontSize:'35px'}}/> <FaJava style={{color:'#007396', fontSize:'35px'}} /> <TbBrandCSharp style={{color:'#1966d2', fontSize:'35px'}} /> 
                             </h3>
                     </div>
                 </div>

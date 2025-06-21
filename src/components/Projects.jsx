@@ -6,7 +6,7 @@ import { SiFlask } from "react-icons/si";
 import { DiMsqlServer } from "react-icons/di";
 import { TbBrandCSharp } from "react-icons/tb";
 import Student from "../assets/images/student.png";
-import Seating from "../assets/images/seating.png";
+import Seating from "../assets/images/ConvocationSeating.png";
 import Match from "../assets/images/match.png";
 
 function Projects() {
@@ -45,7 +45,7 @@ function Projects() {
                         <strong className="Projects-title">
                             <span>Seating Arrangement System</span>
                             <a 
-                                href="https://github.com/Revanth0804/Seating-Arrangement-System" 
+                                href="https://github.com/Revanth0804/ConvocationSeatingArrangement_Client" 
                                 className="Project-presentation" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
